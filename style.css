@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main{
+    width: 100%;
+    font-family: montserrat;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(bgdepan.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: #8c7b75;
+}
+
+nav ul{
+    float: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+nav a{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3 px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1{
+    cursor: pointer;
+    text-align: center;
+    font-family: montserrat;
+    color: #efefef;
+    font-size: 70px;
+}
